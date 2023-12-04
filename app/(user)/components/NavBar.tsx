@@ -13,7 +13,7 @@ const NavBar = () => {
           <nav className='flex'>
             <Link href={'/'} 
             className={router === "/" ? "text-white inline-flex items-center my-6 rounded-full px-1 lg:px-3 mr-4 hover:text-green-800 text-2xl lg:text-4xl font-bold cursive tracking-widest" :'inline-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-800 text-2xl lg:text-4xl font-bold cursive tracking-widest'}>
-              Wenceslaus
+              Tijesunumi
             </Link>
             <Link href='/blog' 
             className={router === "/blog" ? 'text-red-100 bg-red-700 inline-flex items-center my-6 rounded-full px-1 md:px-3 mr-2 lg:mr-4 hover:text-green-800 ':'inline-flex items-center py-3 px-1 md:px-3 mr-2 lg:mr-4 text-red-200 hover:text-green-800 '}>
